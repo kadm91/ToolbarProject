@@ -26,6 +26,13 @@ struct ContentView: View {
                 .sheet(isPresented: $isPresenting) {
                     NavigationStack {
                         Text ("Setting Page")
+                            .toolbar {
+                                ToolbarItem {
+                                    Button("Save") {
+                                        
+                                    }
+                                }
+                            }
                     }
                 }
         }
