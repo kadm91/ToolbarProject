@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationStack {
             Text("Initial View")
                 .toolbar {
-                    ToolbarItem {
+                    ToolbarItem (placement: .topBarLeading){
                         Button {
                             
                         } label: {
