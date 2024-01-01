@@ -29,7 +29,7 @@ struct ContentView: View {
                             .toolbar {
                                 ToolbarItem {
                                     Button("Save") {
-                                        
+                                        isPresenting.toggle()
                                     }
                                 }
                             }
